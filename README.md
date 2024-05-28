@@ -5,19 +5,19 @@ This has been tested with Node version 21.7.1
 
 ## Installation and Startup
 
-1. Install dependencies:
+1. Open a New Terminal window and install dependencies.
 
    ```bash
    npm install
    ```
 
-2. Start the proxy server at http://localhost:5001. In the project directory, run `node proxy.js`
+2. Start the proxy server at http://localhost:5001. In the project directory, run `node proxy.js`.
 
    ```bash
    node proxy.js
    ```
     
-3. In the project directory, you can run `npm start` to run the app in the development mode http://localhost:3000
+3. Open a New Terminal window, and in the project directory, you can run `npm start` to startup the app in the development mode at http://localhost:3000
 
    ```bash
    npm start
