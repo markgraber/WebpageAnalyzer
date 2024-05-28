@@ -1,0 +1,11 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: black;
+    border-radius: 50%;
+    background-size: 50% 50%;
+}
+
+.carousel-indicators button {
+    background-color: black !important;
+}
+
