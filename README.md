@@ -11,13 +11,13 @@ This has been tested with Node version 21.7.1
    npm install
    ```
 
-2. Start the proxy server:
+2. Start the proxy server at http://localhost:5001. In the project directory, run `node proxy.js`
 
    ```bash
    node proxy.js
    ```
     
-3. In the project directory, you can run npm start to run the app in the development mode.
+3. In the project directory, you can run `npm start` to run the app in the development mode http://localhost:3000
 
    ```bash
    npm start
