@@ -3,7 +3,7 @@ Count Words And Get Images From A Webpage
 
 ## Dependencies
 
-- This requires Node.js and has been tested with version 21.7.1
+- This requires Node.js and has been tested with version 21.7.1. You can download it here:
 https://nodejs.org/en/download/package-manager
 
 ## Installation and Startup
