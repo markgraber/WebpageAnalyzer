@@ -5,7 +5,10 @@
     background-size: 50% 50%;
 }
 
-.carousel-indicators button {
-    background-color: black !important;
+.carousel .carousel-indicators button {
+    background-color: black;
 }
 
+.carousel-item img {
+    background-color: gray;
+}

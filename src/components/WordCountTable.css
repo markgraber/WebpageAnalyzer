@@ -1,0 +1,10 @@
+.table-sortable th.sortable {
+    cursor: pointer;
+    color: blue;
+  }
+  
+  .table-sortable th.sortable:hover {
+    text-decoration: underline;
+    color: darkblue;
+  }
+  

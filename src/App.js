@@ -1,7 +1,7 @@
 import React, { } from 'react';
-import './App.css';
-import TextAndImageAnalyzer from './components/TextAndImageAnalyzer';
 import { Container, Row, Col } from 'react-bootstrap';
+import TextAndImageAnalyzer from './components/TextAndImageAnalyzer';
+import './App.css';
 
 function App() {
   return (

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Table, Form } from 'react-bootstrap';
+import './WordCountTable.css';
 import '../App.css'; // Ensure to import the CSS file
 
 const WordCountTable = ({ text }) => {

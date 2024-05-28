@@ -1,6 +1,6 @@
 import React from 'react';
-import '../ImageCarousel.css';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
+import './ImageCarousel.css';
 
 const ImageCarousel = ({ images, baseUrl }) => {
   const getFullUrl = (src) => {
@@ -22,7 +22,7 @@ const ImageCarousel = ({ images, baseUrl }) => {
           <Carousel defaultActiveIndex={0}>
             {images.map((image, index) => (
               <Carousel.Item key={index}>
-                <div>{getFullUrl(image)}</div>
+                <a href={getFullUrl(image)} target="_blank" rel="noreferrer">{getFullUrl(image)}</a>
                 <img className="d-block w-100" src={getFullUrl(image)} alt={`Slide ${index}`} />
               </Carousel.Item>
             ))}
