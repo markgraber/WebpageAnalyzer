@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Table, Form } from 'react-bootstrap';
 import './WordCountTable.scss';
-import '../App.scss'; // Ensure to import the CSS file
+import '../App.scss';
 
 const WordCountTable = ({ text }) => {
   const [wordCounts, setWordCounts] = useState([]);
@@ -44,7 +44,7 @@ const WordCountTable = ({ text }) => {
   });
 
   if (!text || text.length === 0) {
-    return null; // Return null if there are no images
+    return null; // Return null if there is no text
   }
 
   return (

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Webpage Analyzer",
+  "name": "Count Words And Get Images From A Webpage",
   "icons": [
     {
       "src": "favicon.ico",
