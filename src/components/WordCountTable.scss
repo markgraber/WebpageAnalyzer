@@ -1,0 +1,8 @@
+.table-sortable th.sortable {
+  cursor: pointer;
+  color: blue;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

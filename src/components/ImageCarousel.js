@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Carousel } from 'react-bootstrap';
-import './ImageCarousel.css';
+import './ImageCarousel.scss';
 
 const ImageCarousel = ({ images, baseUrl }) => {
   const getFullUrl = (src) => {

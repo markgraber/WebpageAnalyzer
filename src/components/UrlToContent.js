@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Form, Button, Alert } from 'react-bootstrap';
 import { htmlToText } from 'html-to-text';
-import '../App.css'; // Ensure to import the CSS file
+import '../App.scss'; // Ensure to import the CSS file
 
 const UrlToContent = ({ setRenderedText, setImageUrls, setBaseUrl }) => {
   const [url, setUrl] = useState('');
